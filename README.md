@@ -8,6 +8,6 @@ Créditos y tutoriales de preparación:
 4) NodeMCU como AP y servidor web que controla el encendido de un LED: https://parzibyte.me/blog/2020/02/11/encender-apagar-led-wifi-nodemcu-esp8266/
 
 Se aportan dos versiones:
-1) El NodeMCU se conecta a una red wifi existente (hay que meter SSID y password en el programa). La IP asignada al NodeMCU se puede ver en el monitor serie. El NodeMCU actúa como servidor web. Conectándose desde un dispositivo conectado a esa wifi y poniendo esa IP en el navegador se pueden activar o desactivar ambos relés.
-2) El NodeMCU actúa como AP, generando una wifi propia, de SSID "ControlReles" y contraseña "holacaracola". Conectándose desde un dispositivo conectado a esa wifi y poniendo en un navegador la dirección 192.168.1.1 , se pueden activar o desactivar ambos relés.
+1) El NodeMCU se conecta a una red wifi existente (hay que meter SSID y password en el programa). La IP asignada al NodeMCU se puede ver en el monitor serie. El NodeMCU actúa como servidor web. Conectándose desde un dispositivo conectado a esa wifi y poniendo esa IP en el navegador se pueden activar o desactivar ambos relés (-----> "wifiCasaServidorWeb2reles.ino")
+2) El NodeMCU actúa como AP, generando una wifi propia, de SSID "ControlReles" y contraseña "holacaracola". Conectándose desde un dispositivo conectado a esa wifi y poniendo en un navegador la dirección 192.168.1.1 , se pueden activar o desactivar ambos relés (-----> "wifiPropiaServidorWeb2reles.ino")
 
